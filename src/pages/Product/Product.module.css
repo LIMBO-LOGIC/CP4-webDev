@@ -1,0 +1,111 @@
+.container {
+  padding: 20px;
+  background-color: var(--bg-body-color);
+  color: var(--white-default);
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--text-green-color);
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  overflow-x: auto; /* Permite rolagem horizontal em telas pequenas */
+}
+
+.table th,
+.table td {
+  border: 1px solid var(--green-light-color);
+  padding: 12px;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.table th {
+  background-color: var(--green-dark-color);
+  color: var(--text-gray-color);
+}
+
+.table td {
+  background-color: var(--bg-color);
+  color: var(--white-default);
+}
+
+.table tr:hover td {
+  background-color: var(--green-light-color);
+}
+
+.table img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50px;
+  border-radius: 5px;
+}
+
+.button {
+  display: inline-block; /* Para manter a largura adequada */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: var(--green-light-color); /* Cor de fundo */
+  color: var(--white-default); /* Cor do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito para destaque */
+  border: none; /* Remove borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  text-decoration: none; /* Remove sublinhado */
+  transition: background-color 0.3s, transform 0.2s; /* Transição suave */
+  cursor: pointer; /* Mudança de cursor ao passar o mouse */
+  margin-top: 30px;
+  width: auto; /* Mantém a largura adequada */
+}
+
+.button:hover {
+  background-color: var(--yellow-color); /* Cor ao passar o mouse */
+  transform: translateY(-3px); /* Levanta o botão ao passar o mouse */
+}
+
+.button:active {
+  transform: translateY(0); /* Retorna ao normal ao clicar */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px; /* Diminuir o tamanho da fonte no mobile */
+  }
+
+  .table th,
+  .table td {
+    padding: 10px; /* Reduzir padding em telas menores */
+  }
+
+  .button {
+    padding: 8px 16px; /* Ajustar padding do botão */
+    font-size: 0.9rem; /* Diminuir tamanho da fonte do botão */
+    width: 100%; /* Botão ocupa toda a largura */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px; /* Diminuir ainda mais em telas pequenas */
+  }
+
+  .table img {
+    max-width: 40px; /* Reduzir o tamanho das imagens */
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.9rem; /* Ajustar tamanho da fonte da tabela */
+  }
+
+  .button {
+    padding: 10px; /* Ajustar o padding do botão */
+  }
+}

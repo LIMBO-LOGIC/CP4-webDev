@@ -1,0 +1,58 @@
+.card {
+  background-color: var(--bg-color); /* Fundo do card */
+  border: 1px solid var(--green-light-color); /* Borda dourada */
+  border-radius: 10px; /* Suavidade das bordas */
+  padding: 20px; /* Espaço interno */
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transição suave */
+  margin: 20px; /* Margem uniforme */
+  max-width: 300px; /* Limitar a largura máxima */
+  width: 12%; /* Largura responsiva */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Levanta o card ao passar o mouse */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao hover */
+}
+
+.card img {
+  max-width: 200px; /* Imagem ocupa toda a largura disponível */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Suaviza as bordas da imagem */
+  margin-bottom: 15px; /* Espaçamento entre a imagem e o título */
+}
+
+.card h2 {
+  font-size: 1.5rem; /* Tamanho da fonte do título */
+  color: var(--white-default); /* Texto em branco suave */
+  margin: 10px 0; /* Margem vertical */
+}
+
+.card p {
+  font-size: 1rem; /* Tamanho da fonte dos parágrafos */
+  color: var(--text-gray-color); /* Cinza claro para descrição */
+  margin: 5px 0; /* Margem vertical entre os parágrafos */
+}
+
+.card p:last-child {
+  font-weight: bold; /* Destaque para o preço com desconto */
+  color: var(--yellow-color); /* Cor para indicar desconto */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .card {
+    max-width: 90%; /* Aumenta a largura máxima em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .card h2 {
+    font-size: 1.2rem; /* Ajusta o tamanho da fonte do título */
+  }
+
+  .card p {
+    font-size: 0.9rem; /* Ajusta o tamanho da fonte dos parágrafos */
+  }
+}

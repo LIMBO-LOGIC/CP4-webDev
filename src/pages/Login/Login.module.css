@@ -1,0 +1,139 @@
+.mainLogin {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(37, 37, 37);
+}
+
+.leftLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  gap: 20px;
+  background-color: var(--text-green-color);
+  flex-grow: 1;
+}
+
+.leftLogin h3 {
+  color: white;
+  font-size: 36px;
+}
+
+.leftLogin img {
+  height: 80vh;
+}
+
+.rightLogin {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cardUsuario {
+  width: 60%;
+  background: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #00000056;
+}
+
+.cardHeading {
+  color: var(--text-green-color);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.label {
+  color: rgb(218, 218, 218);
+  margin-bottom: 10px;
+  text-align: start;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: var(--green-light-color);
+  color: rgb(218, 218, 218);
+  box-shadow: 0px 10px 40px #00000056;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input::placeholder {
+  color: rgb(218, 218, 218);
+}
+
+.button {
+  width: 100%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+  background-color: var(--green-light-color);
+  cursor: pointer;
+  font-weight: 800;
+  box-shadow: 0px 10px 40px #00000056;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: var(--text-green-color);
+  box-shadow: 0px 10px 40px -12px #00879952;
+}
+
+/* Responsividade */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .leftLogin {
+    display: none; /* Esconder a parte esquerda em telas menores */
+  }
+
+  .rightLogin {
+    width: 100vw; /* Ocupa toda a largura da tela */
+    padding: 20px; /* Adiciona um padding para espaçamento */
+  }
+
+  .cardUsuario {
+    width: 80%; /* Ajusta a largura do card */
+  }
+
+  .cardHeading {
+    font-size: 36px; /* Reduzir o tamanho da fonte do cabeçalho */
+  }
+}
+
+@media (max-width: 480px) {
+  .cardHeading {
+    font-size: 28px; /* Ajustar ainda mais o tamanho da fonte */
+  }
+
+  .button {
+    padding: 12px 0; /* Ajustar padding do botão para telas pequenas */
+  }
+}

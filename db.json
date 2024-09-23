@@ -1,0 +1,80 @@
+{
+  "usuarios": [
+    {
+      "usuario": "admin",
+      "senha": "12345"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    },
+    {
+      "id": "037c",
+      "nome": "333",
+      "precoOriginal": 200,
+      "precoDesconto": 333,
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+    }
+  ]
+}

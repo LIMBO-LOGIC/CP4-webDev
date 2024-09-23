@@ -1,0 +1,20 @@
+.headerMobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+  width: 100vw;
+  height: 100px;
+  background-color: var(--bg-color);
+}
+
+.headerMobile img {
+  height: 100%;
+  width: auto;
+}
+
+.iconMenu {
+  height: 80%;
+  width: auto;
+  color: var(--white-default);
+}
