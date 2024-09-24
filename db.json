@@ -8,73 +8,73 @@
   "produtos": [
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "BMW X6 M",
+      "precoOriginal":1000000,
+      "precoDesconto": 900000,
+      "imagem": "https://miamiimports.com.br/wp-content/uploads/2024/03/BMW-X6M-FRENTE-ESQ.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Mercedes-AMG GT",
+      "precoOriginal": 2200000,
+      "precoDesconto": 1980000,
+      "imagem": "https://cdn.motor1.com/images/mgl/JlvpJ/s1/1x1/mercedes-amg-gt-black-series-2021.webp"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Audi RS Q8",
+      "precoOriginal": 1150000,
+      "precoDesconto": 1000000,
+      "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/06/2025-Audi-RS-Q8-37-e1719436662582.webp?w=1200&h=900&crop=1"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Porsche 911 Turbo S",
+      "precoOriginal": 2000000,
+      "precoDesconto": 180000,
+      "imagem": "https://i.ytimg.com/vi/tX9pTPyZxRo/maxresdefault.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Lamborghini Urus",
+      "precoOriginal": 3500000,
+      "precoDesconto": 3150000,
+      "imagem": "https://cdn.motor1.com/images/mgl/g4MGgN/s1/lamborghini-urus-se.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Ferrari F8 Tributo",
+      "precoOriginal": 4500000,
+      "precoDesconto": 4050000,
+      "imagem": "https://www.planetcarsz.com/img/noticias/2022/06/ferrari-f8-tributo-by-zacoe-2022-01-20220624204122-1600x1000.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Rolls-Royce Ghost",
+      "precoOriginal": 6500000,
+      "precoDesconto": 5850000,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTcs1qJRzuQyW-B7cv3ZGCdW7jmoK0TVWnXQ&s"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Maserati Levante Trofeo",
+      "precoOriginal": 1700000,
+      "precoDesconto": 1530000,
+      "imagem": "https://www.carscoops.com/wp-content/uploads/2020/03/2020-maserati-levante-novitec-tuning-0.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "Bentley Continental GT",
+      "precoOriginal": 4000000,
+      "precoDesconto": 3600000,
+      "imagem": "https://cdn.motor1.com/images/mgl/VEXrl/s1/2018-bentley-continental-gt.jpg"
     },
     {
       "id": "037c",
-      "nome": "333",
-      "precoOriginal": 200,
-      "precoDesconto": 333,
-      "imagem": "https://http2.mlstatic.com/D_NQ_NP_866510-MLB74039193503_012024-O.webp"
+      "nome": "McLaren 720S",
+      "precoOriginal": 4800000,
+      "precoDesconto": 4320000,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8RvaVZqIkMgVcU05u33k4MNbtPDZ_gYqvIw&s"
     }
   ]
 }
