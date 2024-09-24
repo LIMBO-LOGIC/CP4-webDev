@@ -16,6 +16,8 @@
   border-collapse: collapse;
   margin-top: 20px;
   overflow-x: auto; /* Permite rolagem horizontal em telas pequenas */
+  display: table;
+  overflow-x: auto;
 }
 
 .table th,

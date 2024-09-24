@@ -71,6 +71,35 @@ const GlobalStyle = createGlobalStyle`
         width: 100vw;
         flex-grow: 1;
     }
+    /* Resetando CSS padrão da sidebar*/
+.css-1wvake5 {
+  border: none !important;
+  border-color: none !important;
+}
+.css-honxw6,
+.css-jn69v9 {
+  height: 8px !important;
+  width: 8px !important;
+}
+
+.css-dip3t8 {
+  background: none !important;
+}
+
+.ps-menu-button {
+  height: auto !important;
+}
+
+.ps-menu-button:hover {
+  background: none !important;
+}
+.css-dip3t8 {
+  background-color: var(--bg-body-color) !important;
+}
+
+.pt-sub {
+  padding-left: 32px;
+}
 `;
 
 export default GlobalStyle;
