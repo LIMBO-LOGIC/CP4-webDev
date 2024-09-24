@@ -17,7 +17,7 @@ export default function Footer() {
           <Link to="/produtos" className={styles.itemFooter}>
             Produtos
           </Link>
-          <Link to="/contato" className={styles.itemFooter}>
+          <Link to="/login" className={styles.itemFooter}>
             Contato
           </Link>
         </nav>
