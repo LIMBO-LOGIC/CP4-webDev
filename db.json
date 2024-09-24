@@ -76,34 +76,6 @@
       "precoOriginal": 4800000,
       "precoDesconto": 4320000,
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8RvaVZqIkMgVcU05u33k4MNbtPDZ_gYqvIw&s"
-    },
-    {
-      "id": "1727181354141",
-      "nome": "teste",
-      "precoOriginal": 2,
-      "precoDesconto": 5,
-      "imagem": "https://cdn.motor1.com/images/mgl/g44YO7/s1/byd-song-plus.jpg"
-    },
-    {
-      "id": "1727181441952",
-      "nome": "teste233",
-      "precoOriginal": 2,
-      "precoDesconto": 5,
-      "imagem": "https://cdn.motor1.com/images/mgl/g44YO7/s1/byd-song-plus.jpg"
-    },
-    {
-      "id": "1727181468321",
-      "nome": "teste233",
-      "precoOriginal": 2,
-      "precoDesconto": 5,
-      "imagem": "https://cdn.motor1.com/images/mgl/g44YO7/s1/byd-song-plus.jpg"
-    },
-    {
-      "id": "1727181740215",
-      "nome": "teste233",
-      "precoOriginal": 2,
-      "precoDesconto": 5,
-      "imagem": "https://cdn.motor1.com/images/mgl/g44YO7/s1/byd-song-plus.jpg"
     }
   ]
 }
