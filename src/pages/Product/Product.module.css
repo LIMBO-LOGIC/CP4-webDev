@@ -16,8 +16,6 @@
   border-collapse: collapse;
   margin-top: 20px;
   overflow-x: auto; /* Permite rolagem horizontal em telas pequenas */
-  display: table;
-  overflow-x: auto;
 }
 
 .table th,
@@ -109,5 +107,9 @@
 
   .button {
     padding: 10px; /* Ajustar o padding do botão */
+  }
+
+  .container {
+    padding: 10px; /* Ajustar padding da container */
   }
 }
