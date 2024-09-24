@@ -7,6 +7,7 @@
   background-color: rgb(37, 37, 37);
 }
 
+/* Estilos da parte esquerda */
 .leftLogin {
   display: flex;
   flex-direction: column;
@@ -27,6 +28,7 @@
   height: 80vh;
 }
 
+/* Estilos da parte direita */
 .rightLogin {
   width: 50vw;
   display: flex;
@@ -62,7 +64,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 50px 0px;
+  margin: 50px 0;
 }
 
 .label {
@@ -90,7 +92,7 @@
 
 .button {
   width: 100%;
-  padding: 16px 0px;
+  padding: 16px 0;
   border: none;
   border-radius: 8px;
   text-transform: uppercase;
@@ -101,6 +103,7 @@
   font-weight: 800;
   box-shadow: 0px 10px 40px #00000056;
   transition: all 0.5s;
+  margin-top: 30px;
 }
 
 .button:hover {
@@ -108,15 +111,15 @@
   box-shadow: 0px 10px 40px -12px #00879952;
 }
 
-/* Responsividade */
-@media (min-width: 768px) and (max-width: 1100px) {
+/* Media Queries para Responsividade */
+@media (max-width: 1100px) {
   .leftLogin {
     display: none; /* Esconder a parte esquerda em telas menores */
   }
 
   .rightLogin {
     width: 100vw; /* Ocupa toda a largura da tela */
-    padding: 20px; /* Adiciona um padding para espaçamento */
+    padding: 20px; /* Adiciona padding para espaçamento */
   }
 
   .cardUsuario {
@@ -128,6 +131,31 @@
   }
 }
 
+@media (max-width: 768px) {
+  .mainLogin {
+    flex-direction: column; /* Muda para coluna em telas menores */
+  }
+
+  .leftLogin,
+  .rightLogin {
+    width: 100%; /* Ambos ocupam toda a largura */
+    flex-grow: 0; /* Não permite que cresçam */
+  }
+
+  .leftLogin img {
+    height: 50vh; /* Reduz a altura da imagem */
+  }
+
+  .cardUsuario {
+    width: 90%; /* Aumenta a largura do card */
+    padding: 20px; /* Reduz padding do card */
+  }
+
+  .textfield {
+    margin: 30px 0; /* Reduz a margem vertical */
+  }
+}
+
 @media (max-width: 480px) {
   .cardHeading {
     font-size: 28px; /* Ajustar ainda mais o tamanho da fonte */
@@ -135,5 +163,56 @@
 
   .button {
     padding: 12px 0; /* Ajustar padding do botão para telas pequenas */
+  }
+}
+
+/* Responsividade */
+/* Estilos gerais para telas pequenas */
+@media (max-width: 768px) {
+  .mainLogin {
+    flex-direction: column; /* Muda a direção para coluna em telas pequenas */
+  }
+
+  .leftLogin {
+    display: none;
+  }
+  .rightLogin {
+    width: 100vw; /* Ambos ocupam toda a largura */
+    flex-grow: 0; /* Não permite que cresçam */
+  }
+
+  .leftLogin img {
+    height: 50vh; /* Reduz a altura da imagem */
+  }
+
+  .cardUsuario {
+    width: 90%; /* Aumenta a largura do card */
+  }
+
+  .textfield {
+    margin: 30px 0; /* Reduz a margem vertical */
+  }
+}
+
+/* Ajustes adicionais para telas muito pequenas */
+@media (max-width: 480px) {
+  .cardUsuario {
+    padding: 20px 25px; /* Reduz padding do card */
+  }
+
+  .button {
+    padding: 10px 0; /* Ajusta padding do botão para telas muito pequenas */
+  }
+
+  .leftLogin h3 {
+    font-size: 24px; /* Ajusta o tamanho da fonte do cabeçalho */
+  }
+
+  .label {
+    font-size: 14px; /* Reduz o tamanho da fonte das labels */
+  }
+
+  .input {
+    padding: 10px; /* Ajusta padding dos inputs */
   }
 }

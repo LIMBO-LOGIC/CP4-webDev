@@ -9,6 +9,18 @@ const Login = () => {
   const [usuarios, setUsuarios] = useState([]);
   const navigate = useNavigate();
 
+  // Verifica se o usuário já está logado
+  useEffect(() => {
+    const loggedUser = localStorage.getItem("usuario");
+    if (loggedUser) {
+      navigate("/cadastrarProdutos"); // Redireciona se já estiver logado
+    }
+
+    fetch("http://localhost:5000/usuarios")
+      .then((res) => res.json())
+      .then((res) => setUsuarios(res));
+  }, [navigate]);
+
   function validar() {
     return usuarios.some(
       (u) =>
@@ -22,24 +34,21 @@ const Login = () => {
       const token =
         Math.random().toString(16).substring(2) +
         Math.random().toString(16).substring(2);
-      sessionStorage.setItem("usuario", usuario.current.value);
-      sessionStorage.setItem("senha", token);
+      localStorage.setItem("usuario", usuario.current.value); // Armazena no localStorage
+      localStorage.setItem("senha", token);
       navigate("/cadastrarProdutos");
     } else {
       alert("Usuário/senha inválidos");
     }
   };
 
-  useEffect(() => {
-    fetch("http://localhost:5000/usuarios")
-      .then((res) => res.json())
-      .then((res) => setUsuarios(res));
-  }, []);
-
   return (
-    <div className={styles.mainLogin}F>
+    <div className={styles.mainLogin}>
       <div className={styles.leftLogin}>
-        <h3>Se cadastre <br/>Para poder adicionar produtos</h3>
+        <h3>
+          Se cadastre <br />
+          Para poder adicionar produtos
+        </h3>
         <img className={styles.imageLeft} src={imageAbout} alt="Animação" />
       </div>
       <div className={styles.rightLogin}>

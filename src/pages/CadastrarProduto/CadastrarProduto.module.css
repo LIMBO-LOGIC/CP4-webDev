@@ -3,20 +3,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 100vh;
+  width: 100%; /* Altera para 100% para se ajustar à tela */
+  max-width: 500px; /* Mantém um tamanho máximo */
+  height: 100%; /* Permite que a altura se ajuste ao conteúdo */
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  margin: auto;
+  margin: 20px auto; /* Adiciona margem para espaçamento */
 }
 
 .title {
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
-  text-align: center; /* Centraliza o texto do título */
+  text-align: center;
 }
 
 .form {
@@ -31,25 +32,57 @@
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 16px;
-  transition: border-color 0.3s; /* Transição suave para a borda */
+  transition: border-color 0.3s;
 }
 
 .input:focus {
-  border-color: #007bff; /* Azul para foco */
-  outline: none; /* Remove contorno padrão */
+  border-color: #007bff;
+  outline: none;
 }
 
 .button {
   padding: 12px;
-  background-color: #007bff; /* Azul */
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Transição suave para o fundo */
+  transition: background-color 0.3s;
+  margin-top: 30px;
 }
 
 .button:hover {
-  background-color: #0056b3; /* Cor de fundo escurecida no hover */
+  background-color: #0056b3;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px; /* Reduz padding em telas menores */
+  }
+
+  .title {
+    font-size: 20px; /* Reduz tamanho da fonte do título */
+  }
+
+  .input,
+  .button {
+    font-size: 14px; /* Ajusta o tamanho da fonte dos inputs e botão */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px; /* Reduz ainda mais o padding */
+  }
+
+  .title {
+    font-size: 18px; /* Ajusta tamanho da fonte do título */
+  }
+
+  .input,
+  .button {
+    padding: 10px; /* Ajusta padding dos inputs e botão */
+  }
 }

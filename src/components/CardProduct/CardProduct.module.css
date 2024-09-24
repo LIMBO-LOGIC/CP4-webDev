@@ -1,4 +1,8 @@
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: var(--bg-color); /* Fundo do card */
   border: 1px solid var(--green-light-color); /* Borda dourada */
   border-radius: 10px; /* Suavidade das bordas */
@@ -8,7 +12,7 @@
   transition: transform 0.2s, box-shadow 0.2s; /* Transição suave */
   margin: 20px; /* Margem uniforme */
   max-width: 300px; /* Limitar a largura máxima */
-  width: 12%; /* Largura responsiva */
+  width: 100%; /* Largura responsiva */
 }
 
 .card:hover {
@@ -17,7 +21,7 @@
 }
 
 .card img {
-  max-width: 200px; /* Imagem ocupa toda a largura disponível */
+  max-width: 100%; /* Imagem ocupa toda a largura disponível */
   height: auto; /* Mantém a proporção da imagem */
   border-radius: 10px; /* Suaviza as bordas da imagem */
   margin-bottom: 15px; /* Espaçamento entre a imagem e o título */
@@ -44,6 +48,15 @@
 @media (max-width: 768px) {
   .card {
     max-width: 90%; /* Aumenta a largura máxima em telas menores */
+    margin: 10px; /* Reduz a margem em telas menores */
+  }
+
+  .card h2 {
+    font-size: 1.4rem; /* Ajusta o tamanho da fonte do título */
+  }
+
+  .card p {
+    font-size: 0.95rem; /* Ajusta o tamanho da fonte dos parágrafos */
   }
 }
 

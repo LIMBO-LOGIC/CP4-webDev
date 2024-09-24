@@ -49,9 +49,16 @@ const CadastrarProduto = () => {
     }
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem("usuario");
+    localStorage.removeItem("senha");
+    navigate("/login"); // Redireciona para a página de login
+  };
+
   return (
     <section className={styles.container}>
       <h1 className={styles.title}>Cadastrar Produto</h1>
+
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           type="text"
@@ -87,6 +94,9 @@ const CadastrarProduto = () => {
         />
         <button type="submit" className={styles.button}>
           Cadastrar
+        </button>
+        <button onClick={handleLogout} className={styles.button}>
+          Logout
         </button>
       </form>
     </section>
