@@ -3,86 +3,86 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--bg-color); /* Fundo do card */
-  border: 1px solid var(--green-light-color); /* Borda dourada */
-  border-radius: 10px; /* Suavidade das bordas */
-  padding: 20px; /* Espaço interno */
+  background-color: var(--bg-color);
+  border: 1px solid var(--green-light-color); 
+  border-radius: 10px;
+  padding: 20px; 
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa */
-  transition: transform 0.2s, box-shadow 0.2s; /* Transição suave */
-  margin: 20px; /* Margem uniforme */
-  max-width: 300px; /* Limitar a largura máxima */
-  width: 100%; /* Largura responsiva */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s, box-shadow 0.2s; 
+  margin: 20px; 
+  max-width: 300px; 
+  width: 100%; 
+
+  h3{
+    color: var(--yellow-color);
+  }
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Levanta o card ao passar o mouse */
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3); 
 }
 
 .card img {
-  max-width: 100%; /* Imagem ocupa toda a largura disponível */
-  height: auto; /* Mantém a proporção da imagem */
-  border-radius: 10px; /* Suaviza as bordas da imagem */
-  margin-bottom: 15px; /* Espaçamento entre a imagem e o título */
-}
-
-.card h2 {
-  font-size: 1.5rem; /* Tamanho da fonte do título */
-  color: var(--white-default); /* Texto em branco suave */
-  margin: 10px 0; /* Margem vertical */
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+  margin-bottom: 15px; 
+  width: 100%;
+  max-height: 180px;
 }
 
 .card p {
-  font-size: 1rem; /* Tamanho da fonte dos parágrafos */
-  color: var(--text-gray-color); /* Cinza claro para descrição */
-  margin: 5px 0; /* Margem vertical entre os parágrafos */
+  font-size: 1rem; 
+  color: var(--text-gray-color); 
+  margin: 5px 0; 
 }
 
 .card p:last-child {
-  font-weight: bold; /* Destaque para o preço com desconto */
-  color: var(--yellow-color); /* Cor para indicar desconto */
+  font-weight: bold; 
+  color: var(--yellow-color); 
 }
 .comprar {
   margin-top: 20px;
   background-color: var(--green-light-color);
   color: var(--white-default);
-  padding: 10px 20px; /* Ajuste a largura do botão */
-  border: none; /* Remove borda padrão */
-  border-radius: 25px; /* Bordas arredondadas */
-  font-size: 1.1rem; /* Tamanho da fonte */
-  cursor: pointer; /* Muda o cursor ao passar o mouse */
-  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Transições suaves */
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 25px; 
+  font-size: 1.1rem; 
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
 }
 
 .comprar:hover {
-  background-color: var(--yellow-color); /* Cor ao passar o mouse */
-  color: var(--black-default); /* Cor do texto ao passar o mouse */
-  transform: translateY(-3px); /* Eleva o botão ao passar o mouse */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+  background-color: var(--yellow-color); 
+  color: var(--black-default); 
+  transform: translateY(-3px); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
 }
 /* Responsividade */
 @media (max-width: 768px) {
   .card {
-    max-width: 90%; /* Aumenta a largura máxima em telas menores */
-    margin: 10px; /* Reduz a margem em telas menores */
+    max-width: 90%; 
+    margin: 10px; 
   }
 
   .card h2 {
-    font-size: 1.4rem; /* Ajusta o tamanho da fonte do título */
+    font-size: 1.4rem; 
   }
 
   .card p {
-    font-size: 0.95rem; /* Ajusta o tamanho da fonte dos parágrafos */
+    font-size: 0.95rem; 
   }
 }
 
 @media (max-width: 480px) {
   .card h2 {
-    font-size: 1.2rem; /* Ajusta o tamanho da fonte do título */
+    font-size: 1.2rem; 
   }
 
   .card p {
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte dos parágrafos */
+    font-size: 0.9rem; 
   }
 }
