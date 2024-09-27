@@ -13,7 +13,7 @@ Bem-vindo ao LLCV CAR, a sua loja online de carros elétricos de luxo! Esta apli
 A combinação dessas tecnologias permite ao LLCV CAR oferecer uma interface intuitiva e personalizável, ideal para apresentar e vender carros esportivos e elétricos de maneira eficiente e envolvente.
 
 ## Links
-- [Deploy](https://sportyside.netlify.app/)
+- [Deploy](https://llcv-cars.netlify.app/)
 
 ## Desenvolvedores
 | Desenvolvedor | Avatar | RM |
