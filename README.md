@@ -1,4 +1,4 @@
-# SportySide
+# LLCV CAR
 
 ![](./src/assets/screen.png)
 
@@ -8,9 +8,9 @@ Bem-vindo ao SportySide, a sua loja esportiva online! Esta aplicação web é de
 ## Tecnologias Utilizadas
 - React: Utilizado para construir a interface de usuário da aplicação, garantindo uma experiência interativa e responsiva.
 - react-router-dom: Gerencia a navegação entre diferentes páginas e seções da aplicação. Com essa solução robusta, é possível criar rotas e navegar de forma condicional entre os componentes da aplicação.
-- styled-components: Implementa a estilização de componentes React usando a sintaxe de CSS-in-JS. Isso permite a criação de um layout visualmente atraente e responsivo, melhorando a experiência do usuário e garantindo um design tanto funcional quanto esteticamente agradável.
+CSS em Componentes: Implementa a estilização de componentes React usando CSS modular. Isso permite a criação de um layout visualmente atraente e responsivo, melhorando a experiência do usuário e garantindo um design tanto funcional quanto esteticamente agradável.
 
-A combinação dessas tecnologias permite ao SportySide oferecer uma interface intuitiva e personalizável, ideal para apresentar e vender produtos esportivos de maneira eficiente e envolvente.
+A combinação dessas tecnologias permite ao LLCV CAR oferecer uma interface intuitiva e personalizável, ideal para apresentar e vender carros esportivos e elétricos de maneira eficiente e envolvente.
 
 ## Links
 - [Deploy](https://sportyside.netlify.app/)
