@@ -3,7 +3,7 @@
 ![](./src/assets/screen.png)
 
 ## Sobre
-Bem-vindo ao LLCV CAR,A sua loja online de carros elétricos de luxo! Esta aplicação web é desenvolvida utilizando React. O principal objetivo deste projeto é proporcionar uma experiência de navegação fluida e envolvente, facilitando a compra de veículos elétricos sofisticados e de alto desempenho.
+Bem-vindo ao LLCV CAR, a sua loja online de carros elétricos de luxo! Esta aplicação web é desenvolvida utilizando React. O principal objetivo deste projeto é proporcionar uma experiência de navegação fluida e envolvente, facilitando a compra de veículos elétricos sofisticados e de alto desempenho.
 
 ## Tecnologias Utilizadas
 - React: Utilizado para construir a interface de usuário da aplicação, garantindo uma experiência interativa e responsiva.
