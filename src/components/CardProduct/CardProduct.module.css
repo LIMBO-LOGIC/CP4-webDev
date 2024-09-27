@@ -43,7 +43,24 @@
   font-weight: bold; /* Destaque para o preço com desconto */
   color: var(--yellow-color); /* Cor para indicar desconto */
 }
+.comprar {
+  margin-top: 20px;
+  background-color: var(--green-light-color);
+  color: var(--white-default);
+  padding: 10px 20px; /* Ajuste a largura do botão */
+  border: none; /* Remove borda padrão */
+  border-radius: 25px; /* Bordas arredondadas */
+  font-size: 1.1rem; /* Tamanho da fonte */
+  cursor: pointer; /* Muda o cursor ao passar o mouse */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Transições suaves */
+}
 
+.comprar:hover {
+  background-color: var(--yellow-color); /* Cor ao passar o mouse */
+  color: var(--black-default); /* Cor do texto ao passar o mouse */
+  transform: translateY(-3px); /* Eleva o botão ao passar o mouse */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
 /* Responsividade */
 @media (max-width: 768px) {
   .card {

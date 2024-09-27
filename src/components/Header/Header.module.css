@@ -6,6 +6,7 @@
   width: 100vw;
   height: 100px;
   background-color: var(--bg-color);
+  transition: background-color 0.3s;
 }
 
 .header img {
@@ -27,12 +28,31 @@
   padding: 12px 20px;
   transition: all 0.5s;
   font-size: 1.25rem;
+  position: relative; /* Para o efeito de pseudo-elemento */
 }
 
 .itemMenu a:hover {
   border-radius: 7px;
   color: var(--yellow-color);
   background-color: var(--green-light-color);
+  transform: scale(1.1); /* Aumenta ligeiramente o tamanho */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+
+.itemMenu a::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--yellow-color);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.itemMenu a:hover::before {
+  width: 100%; /* Expande a linha ao hover */
+  left: 0; /* Move a linha para a esquerda */
 }
 
 @media (max-width: 1020px) {

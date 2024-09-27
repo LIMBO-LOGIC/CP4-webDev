@@ -11,11 +11,11 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --bg-color: #1A1A1A; /* Fundo escuro */
         --green-light-color: #B9A25B; /* Verde claro em tom dourado */
-        --yellow-color: #FFD700; /* Dourado */
+        --yellow-color: #2381E6; /* Dourado */
         --red-color: #FF3B3B; /* Vermelho mais suave */
         --blue-color: #6A8EFD; /* Azul mais suave */
         --green-light-color: #3B3B3B; /* Verde escuro, mais neutro */
-        --text-green-color: #E3B24D; /* Texto em dourado claro */
+        --text-green-color: #0068D7; /* Texto em dourado claro */
         --text-gray-color: #D1D1D1; /* Cinza claro para melhor contraste */
         --bg-body-color: #121212; /* Corpo de fundo escuro */
         --black-default: #000; /* Preto padrão */

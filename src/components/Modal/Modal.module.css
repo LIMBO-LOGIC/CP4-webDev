@@ -1,0 +1,99 @@
+/* components/Modal.module.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s;
+}
+
+.modal {
+  background: white;
+  padding: 30px; /* Aumentar o padding */
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  max-width: 800px; /* Aumentar a largura máxima */
+  width: 90%; /* Manter a largura responsiva */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+  animation: slideIn 0.3s forwards;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.productImage {
+  max-width: 200px; /* Aumentar a largura da imagem */
+  height: auto;
+  border-radius: 10px;
+  margin-right: 30px; /* Aumentar espaço entre a imagem e o texto */
+}
+
+.textContainer {
+  flex-grow: 1;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--yellow-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px; /* Aumentar o tamanho do botão de fechar */
+  height: 40px; /* Aumentar o tamanho do botão de fechar */
+  font-size: 1.5rem; /* Aumentar o tamanho do texto do botão de fechar */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.close:hover {
+  background: #ff1a1a;
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 600px) {
+  .content {
+    flex-direction: column; /* Mudar para coluna em telas menores */
+    align-items: flex-start; /* Alinhar itens à esquerda */
+  }
+
+  .productImage {
+    max-width: 100%; /* A imagem ocupará a largura total em telas pequenas */
+    margin-right: 0; /* Remover o espaço à direita */
+    margin-bottom: 15px; /* Adicionar espaço abaixo da imagem */
+  }
+
+  .modal {
+    padding: 20px; /* Reduzir o padding em telas pequenas */
+  }
+}
