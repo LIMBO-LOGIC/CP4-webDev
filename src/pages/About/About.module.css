@@ -23,13 +23,13 @@
 }
 
 .boxText p {
-  font-size: clamp(0.75rem, 0.3962rem + 1.1321vw, 1.5rem)
+  font-size: clamp(0.75rem, 0.3962rem + 1.1321vw, 1.5rem);
 }
 
 @media (max-width: 1200px) {
   .about img {
     height: auto;
-    width: 50%;
+    width: 50%
   }
 }
 
