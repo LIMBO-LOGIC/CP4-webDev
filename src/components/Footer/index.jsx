@@ -39,7 +39,7 @@ export default function Footer() {
         <img src={logo} alt="Logo empresa" />
         <div className={styles.links}>
           <a href="">Termos de serviço</a>
-          <a href="">Política de privacidade</a>
+          <a href="">Política de privacidade </a>
         </div>
       </div>
     </footer>
